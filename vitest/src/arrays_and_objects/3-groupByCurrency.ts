@@ -1,4 +1,4 @@
-type Payment = {
+export type Payment = {
   id: string;
   currency: string;
   amount: number;
