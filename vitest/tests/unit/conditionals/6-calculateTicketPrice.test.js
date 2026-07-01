@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { calculateTicketPrice } from "../../../src/conditionals/calculateTicketPrice";
+import { calculateTicketPrice } from "../../../src/conditionals/6-calculateTicketPrice";
 
 describe("calculateTicketPrice", () => {
   it("should return 0 if age is below 5", () => {

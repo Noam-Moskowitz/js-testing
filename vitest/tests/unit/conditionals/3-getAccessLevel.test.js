@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getAccessLevel } from "../../../src/conditionals/getAccessLevel";
+import { getAccessLevel } from "../../../src/conditionals/3-getAccessLevel";
 
 describe("getAccessLevel", () => {
   it.each([

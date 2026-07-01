@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { reverseString } from "../../../src/basics/reverseString";
+import { reverseString } from "../../../src/basics/7-reverseString";
 
 describe("reverseString", () => {
   it("should reverse a normal string", () => {

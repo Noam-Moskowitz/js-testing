@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getTrafficLightAction } from "../../../src/conditionals/getTrafficLightAction";
+import { getTrafficLightAction } from "../../../src/conditionals/4-getTrafficLightAction";
 
 describe("getTrafficLightAction", () => {
   it.each([

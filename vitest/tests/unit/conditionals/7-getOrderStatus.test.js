@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getOrderStatus } from "../../../src/conditionals/getOrderStatus";
+import { getOrderStatus } from "../../../src/conditionals/7-getOrderStatus";
 
 describe("getOrderStatus", () => {
   it('should return "Awaiting Payment" when isPaid is false', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getLetterGrade } from "../../../src/conditionals/getLetterGrade";
+import { getLetterGrade } from "../../../src/conditionals/1-getLetterGrade";
 
 describe("getLetterGrade", () => {
   it.each([
