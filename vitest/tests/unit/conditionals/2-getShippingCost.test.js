@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getShippingCost } from "../../../src/conditionals/getShippingCost";
+import { getShippingCost } from "../../../src/conditionals/2-getShippingCost";
 
 describe("getShippingCost", () => {
   it("should return 0 if premium customer", () => {

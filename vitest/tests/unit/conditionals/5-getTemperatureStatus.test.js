@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getTemperatureStatus } from "../../../src/conditionals/getTemperatureStatus";
+import { getTemperatureStatus } from "../../../src/conditionals/5-getTemperatureStatus";
 
 describe("getTemperatureStatus", () => {
   it.each([
