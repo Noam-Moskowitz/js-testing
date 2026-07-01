@@ -4,10 +4,10 @@ import { filterActiveUsers } from "../../../src/arrays_and_objects/1-filterActiv
 
 describe("filterActiveUsers", () => {
   it("removes all inactive users", () => {
-    const activeUser1 = createUser({ id: "1", active: true });
-    const activeUser2 = createUser({ id: "2", active: true });
-    const inactiveUser1 = createUser({ id: "1", active: false });
-    const inactiveUser2 = createUser({ id: "2", active: false });
+    const activeUser1 = createUser({ active: true });
+    const activeUser2 = createUser({ active: true });
+    const inactiveUser1 = createUser({ active: false });
+    const inactiveUser2 = createUser({ active: false });
 
     expect(filterActiveUsers([activeUser1, inactiveUser1])).toEqual([activeUser1]);
     expect(filterActiveUsers([activeUser1, inactiveUser1, inactiveUser2])).toEqual([activeUser1]);
