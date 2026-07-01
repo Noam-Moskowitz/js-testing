@@ -1,5 +1,5 @@
 type User = {
-  _id: string;
+  id: string;
   username: string;
   email: string;
 };
@@ -7,6 +7,6 @@ type User = {
 export const formatUsersForSelect = (users: User[]) => {
   return users.map((user) => ({
     label: `${user.username} (${user.email})`,
-    value: user._id,
+    value: user.id,
   }));
 };
